@@ -6,6 +6,6 @@
 
 ---
 
-![Hollow Kningt] (https://tinyurl.com/3cwmysam)
+![Hollow Kningt](https://tinyurl.com/3cwmysam)
 
-[Files in Drive - ADSO] (https://drive.google.com/drive/folders/1cUEOsM44rpspMfyWvY_YlnXlIm9uffej)
+[Files in Drive - ADSO](https://drive.google.com/drive/folders/1cUEOsM44rpspMfyWvY_YlnXlIm9uffej)
