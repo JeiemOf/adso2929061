@@ -74,6 +74,24 @@ body {
     font-family: var(--font-fm);
     justify-content: center;
     min-height: 100vh;
+    nav {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        a:is(;link, :visited) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40%;
+            width: 50px;
+            
+            svg {
+                opacity: 0.8;
+                transition: all 0.4s ease-in,
+            }
+        }
+
+    };
     main {
         header {
             align-items: center;
