@@ -161,8 +161,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 main{
+    header {
+        h2 {
+            border-bottom: none;
+        }
+    }
     menu {
-        a:is
+        a:is(:link, :visited){
+            color: green;
+            span {
+                background-color: green;
+            }
+        }
+
     }
 }
 }
