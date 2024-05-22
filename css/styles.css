@@ -164,6 +164,7 @@ main{
     header {
         h2 {
             border-bottom: none;
+            max-width: 80%;
         }
     }
     menu {
