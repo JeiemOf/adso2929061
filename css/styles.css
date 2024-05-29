@@ -102,7 +102,12 @@ body {
         }
     }
     main {
-        header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        header {    
             align-items: center;
             display: flex;
             flex-direction: column;
@@ -167,6 +172,30 @@ body {
                 width: 60px;
             }
         }
+        section {
+            background-color: rgba(36, 32, 32, 0.548);
+            border-radius: 4px;
+            padding: 1rem;
+            width: 440px;
+            h3 {
+                color: #fffc;
+                font-size: 1.4rem;
+                font-weight: 400;
+                border-bottom: 2px dotted#fff6;
+                margin-block: 0.6rem;
+            }
+            p {
+                color: greenyellow;
+                font-size: 1.4rem;
+            }
+            xmp {
+                background-color: #0009;
+                border-radius: 4px;
+                color: #adff2f;
+                font-size: 1rem;
+                padding: 10px 10px 20px 10px;               
+            }
+        }
     }
 }
 /* - - - - - - - - - - - - - */
@@ -191,10 +220,13 @@ main{
     header {
         h1{
             color: black;
+            font-weight: 700;
         }
         h2 {
+            color: black;
             border-bottom: none;
             max-width: 80%;
+            font-weight: 500;
         }
     }
     menu {
