@@ -262,6 +262,12 @@ main{
             font-weight: 500;
         }
     }
+    section {
+        p {
+            color: rgb(11, 245, 253);
+            font-size: 1rem;
+        }
+    }
     menu {
         a:is(:link, :visited){
             color: green;
