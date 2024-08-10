@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01- Document Style</title>
+    <title>04- Basic Selectors</title>
     <link rel="stylesheet" href="../css/styles.css">
     <style>
-        div.title {
-            background-color: aquamarine;
-            border-radius: 1rem;
-            color: teal;
-            font-size: 2.8rem;
-            padding: 4rem 1rem;
+        /* * {
+            border: 2px solid red;
+        } */
+        section#sec01 div.rotate {
+            font-size: 6rem;
             margin-block: 4rem;
             text-align: center;
+            transform: rotate(-45deg);
         }
     </style>
 </head>
@@ -25,11 +25,18 @@
     </nav>
     <main>
         <header>
-            <h1>01- Document Style </h1>
-            <h2>This way we can include CSS within the style tag, it is very useful when you only have an html document.</h2>
+            <h1>04- Basic Selectors </h1>
+            <ul>
+                <li>Universal (*)</li>
+                <li>Type / Tag (p)</li>
+                <li>Descending (div p)</li>
+                <li>Class (.important)</li>
+                <li>ID (#cod389)</li>
+                <li>Merge (div#user3 p.title)</li>
+            </ul>
         </header>
-        <section>
-            <div class="title">ADSO 2929061 A</div>
+        <section id="sec01">
+            <div class="rotate">SENA</div>
         </section>
     </main>
 </body>

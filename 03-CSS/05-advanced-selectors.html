@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01- Document Style</title>
+    <title>05- Advanced Selectors</title>
     <link rel="stylesheet" href="../css/styles.css">
     <style>
-        div.title {
-            background-color: aquamarine;
-            border-radius: 1rem;
-            color: teal;
-            font-size: 2.8rem;
-            padding: 4rem 1rem;
-            margin-block: 4rem;
+        section {
+            padding-block: 4rem !important;
+        }
+        section > p {
             text-align: center;
+            font-size: 1.4rem !important;
+        }
+        section[class] > p + p {
+            background: linear-gradient(to left, white, transparent);
+            color: navy !important;
+            padding: 1rem;
         }
     </style>
 </head>
@@ -25,11 +28,16 @@
     </nav>
     <main>
         <header>
-            <h1>01- Document Style </h1>
-            <h2>This way we can include CSS within the style tag, it is very useful when you only have an html document.</h2>
+            <h1>05- Adv Selectors </h1>
+            <ul>
+                <li>Children (>)</li>
+                <li>Adjacent/Sibling (+)</li>
+                <li>Attribute [class]</li>
+            </ul>
         </header>
-        <section>
-            <div class="title">ADSO 2929061 A</div>
+        <section class="example">
+            <p>CPIC</p>
+            <p>Regional Caldas</p>
         </section>
     </main>
 </body>
